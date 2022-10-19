@@ -5,7 +5,7 @@ Source code of the paper [Weisfeiler and Leman Go Walking: Random Walk Kernels R
 The graph kernels contained in this package can be computed via a command line interface. Run the shell script `kkernel` to see a list of all available kernels and parameters.
 
 ### Example
-The following command computes the node-centric $\ell$-walk kernel for $\alpha$ in $\{0.1, 1.0\}$, $\beta$ in $\{0.0, 1.0\}$ and length $\ell$ in $\{0, 1, 2, 3, 4, 5\$} for the data set MUTAG:
+The following command computes the node-centric $\ell$-walk kernel for $\alpha$ in {0.1, 1.0}, $\beta$ in {0.0, 1.0} and length $\ell$ in {0, 1, 2, 3, 4, 5} for the data set MUTAG:
 ```
 ./kkernel -d MUTAG ncw -a 0.1, 1.0 -b 0.0, 1.0 -l 0, 1, 2, 3, 4, 5
 ```
